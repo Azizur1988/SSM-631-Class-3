@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.form-section{
+    width: 100%;
+    background-color: rgb(110, 110, 190);
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-box{
+    width: 1000px;
+    height: 80vh;
+    background-color: white;
+    display: flex
+
+}
+.left-side, .right-side{
+    flex-basis: 50%;
+}
+
+.left-side{
+    background: url(../img/call-center.jpg) center center no-repeat;
+    background-size: cover;
+}
+ 
+.right-side{
+    padding: 40px; 
+}
+
+input, select, textarea{
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0px;
+}
+.name input{
+    width: 49%;
+}
+.name .first-name{
+    margin: 1px;
+}
+.condition input{
+    width: auto;
+}
